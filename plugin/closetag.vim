@@ -12,7 +12,7 @@ fun! s:Initial()
     call s:Declare('g:closetag_filetypes', 'html,xhtml,phtml,svelte')
     call s:Declare('g:closetag_xhtml_filetypes', 'xhtml')
 
-    call s:Declare('g:closetag_filenames', '*.html,*.xhtml,*.phtml', *.svelte)
+    call s:Declare('g:closetag_filenames', '*.html,*.xhtml,*.phtml', '*.svelte')
     call s:Declare('g:closetag_xhtml_filenames', '*.xhtml')
 
     call s:Declare('g:closetag_shortcut', '>')
